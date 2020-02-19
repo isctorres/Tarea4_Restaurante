@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Restaurante</string>
+    <string name="strAcerca">Acerca de..</string>
+    <string name="strPlatilloF">Platos Fuertes</string>
+    <string name="strBebidas">Bebidas</string>
+    <string name="strEnsalada">Ensaladas</string>
+    <string name="strDescripcion">iAntojo es un restaurante inspirado en la mezcla y toques de sabores, texturas y colores ubicados en el hall de entrada al Hotel y Centro de Eventos Malibu en la ciudad de Sincelejo. Animado con una brisa fresca en el centro de una arquitectura moderna, con una gran guaca de sabores. Nuestro menú es una experiencia ecléctica de la mejor cocina internacional con un toque de estilo mediterráneo.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itmAcerca"
+        android:title="@string/strAcerca"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/itmPlatilloF"
+        android:title="@string/strPlatilloF"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/itmEnsalada"
+        android:title="@string/strEnsalada"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/itmBebidas"
+        android:title="@string/strBebidas"
+        app:showAsAction="never"
+        />
+
+</menu>
