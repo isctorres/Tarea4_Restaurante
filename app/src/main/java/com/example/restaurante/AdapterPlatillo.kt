@@ -1,8 +1,10 @@
 package com.example.restaurante
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.layout_tarjeta.*
@@ -26,6 +28,13 @@ class AdapterPlatillo(var list:ArrayList<Platillo>): RecyclerView.Adapter<Adapte
         fun bindItem(data:Platillo){
             itemView.txtPlatillo.text = data.platillo
             Glide.with(itemView.context).load(data.imagen).into(itemView.imvPlatillo)
+            itemView.imvMore.setOnClickListener{
+                val intDetalle = Intent(itemView.context,DetallePlatillo::class.java)
+                intDetalle.putExtra("PLATILLO",data.platillo)
+                intDetalle.putExtra("DETALLE",data.descripcion)
+                intDetalle.putExtra("IMAGEN",data.imagen)
+                itemView.context.startActivity(intDetalle)
+            }
         }
     }
 }
