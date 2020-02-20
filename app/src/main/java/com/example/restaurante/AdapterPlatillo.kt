@@ -4,10 +4,8 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import kotlinx.android.synthetic.main.layout_tarjeta.*
 import kotlinx.android.synthetic.main.layout_tarjeta.view.*
 
 class AdapterPlatillo(var list:ArrayList<Platillo>): RecyclerView.Adapter<AdapterPlatillo.ViewHolder>(){

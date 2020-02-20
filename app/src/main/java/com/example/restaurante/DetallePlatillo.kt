@@ -13,6 +13,8 @@ class DetallePlatillo : AppCompatActivity() {
 
         val intPlatillo = this.intent
         txtNombrePlatillo.text = intPlatillo.getStringExtra("PLATILLO")
-        txtDetallePlatillo.text = intPlatillo.getStringExtra("DETALLE")
+        txtDetallePlatillo.text = getString(intPlatillo.getIntExtra("DETALLE",0))
+        var res = intPlatillo.getIntExtra("IMAGEN",0)
+        imvPlatillo.setImageResource(res)
     }
 }

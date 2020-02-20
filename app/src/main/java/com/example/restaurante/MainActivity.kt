@@ -23,17 +23,17 @@ class MainActivity : AppCompatActivity() {
         rcvListado.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         val platillos = ArrayList<Platillo>()
 
-        platillos.add(Platillo("Ensalada Verde",(R.string.strDetEnsVerde).toString(),70F,R.drawable.ensalada_verde,"2"))
-        platillos.add(Platillo("Ensalada Cesar",(R.string.strDetEnsCesar).toString(),70F,R.drawable.ensalada_cesar,"2"))
-        platillos.add(Platillo("Ensalada de Uva",(R.string.strDetEnsUva).toString(),70F,R.drawable.ensalada_uva,"2"))
-        platillos.add(Platillo("Chiles en Nogada",(R.string.strDetChiles).toString(),50F,R.drawable.chile_enhogada,"1"))
-        platillos.add(Platillo("Pavo",(R.string.strDetPavo).toString(),50F,R.drawable.pavo,"1"))
-        platillos.add(Platillo("Pozole",(R.string.strDetPozole).toString(),50F,R.drawable.pozole,"1"))
-        platillos.add(Platillo("Taco",(R.string.strDetTaco).toString(),50F,R.drawable.taco,"1"))
-        platillos.add(Platillo("Agua Fresca",(R.string.strDetAguaFresca).toString(),50F,R.drawable.agua_fresca,"3"))
-        platillos.add(Platillo("Cerveza",(R.string.strDetCerveza).toString(),50F,R.drawable.cerveza,"3"))
-        platillos.add(Platillo("Refresco",(R.string.strDetRefresco).toString(),50F,R.drawable.refresco,"3"))
-        platillos.add(Platillo("Vino",(R.string.strDetVino).toString(),50F,R.drawable.vinos_uva,"3"))
+        platillos.add(Platillo("Ensalada Verde",R.string.strDetEnsVerde,70F,R.drawable.ensalada_verde,"2"))
+        platillos.add(Platillo("Ensalada Cesar",R.string.strDetEnsCesar,70F,R.drawable.ensalada_cesar,"2"))
+        platillos.add(Platillo("Ensalada de Uva",R.string.strDetEnsUva,70F,R.drawable.ensalada_uva,"2"))
+        platillos.add(Platillo("Chiles en Nogada",R.string.strDetChiles,50F,R.drawable.chile_enhogada,"1"))
+        platillos.add(Platillo("Pavo",R.string.strDetPavo,50F,R.drawable.pavo,"1"))
+        platillos.add(Platillo("Pozole",R.string.strDetPozole,50F,R.drawable.pozole,"1"))
+        platillos.add(Platillo("Taco",R.string.strDetTaco,50F,R.drawable.taco,"1"))
+        platillos.add(Platillo("Agua Fresca",R.string.strDetAguaFresca,50F,R.drawable.agua_fresca,"3"))
+        platillos.add(Platillo("Cerveza",R.string.strDetCerveza,50F,R.drawable.cerveza,"3"))
+        platillos.add(Platillo("Refresco",R.string.strDetRefresco,50F,R.drawable.refresco,"3"))
+        platillos.add(Platillo("Vino",R.string.strDetVino,50F,R.drawable.vinos_uva,"3"))
 
         var subPlatillos = platillos.filter { it.tipo  == opc } as ArrayList<Platillo>
 
