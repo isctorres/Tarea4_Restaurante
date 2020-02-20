@@ -32,7 +32,8 @@
                 android:layout_below="@id/imvPlatillo"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
-                android:textSize="25sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <ImageView
                 android:id="@+id/imvMore"
